@@ -3,7 +3,7 @@
     test
     ~~~~
 
-    Sanic-Cors tests module
+    Japronto-Cors tests module
 """
 
 from ..base_test import SanicCorsTestCase
