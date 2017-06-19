@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-    sanic_cors
+    japronto_cors
     ~~~~
-    Sanic-CORS is a simple extension to Sanic allowing you to support cross
+    Japronto-CORS is a simple extension to Japronto allowing you to support cross
     origin resource sharing (CORS) using a simple decorator.
 
-    :copyright: (c) 2017 by Ashley Sommer (based on flask-cors by Cory Dolphin).
+    :copyright: (c) 2017 by George Sakkis (based on sanic-cors by Ashley Sommer
+        and flask-cors by Cory Dolphin).
     :license: MIT, see LICENSE for more details.
 """
 from .decorator import cross_origin
@@ -24,7 +25,7 @@ except ImportError:
             pass
 
 # Set initial level to WARN. Users must manually enable logging for
-# sanic_cors to see our logging.
+# japronto_cors to see our logging.
 rootlogger = logging.getLogger(__name__)
 rootlogger.addHandler(NullHandler())
 
